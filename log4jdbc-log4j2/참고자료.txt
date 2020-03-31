@@ -1,0 +1,13 @@
+jar : https://code.google.com/archive/p/log4jdbc-log4j2/downloads
+source : https://code.google.com/archive/p/log4jdbc-log4j2/source/default/source
+
+프로젝트 세팅
+1. svn 체크아웃
+2. File -> Import -> Maven -> Existing Maven Projects -> ...log4jdbc-log4j2\log4jdbc-log4j2-jdbc4.1\pom.xml 선택
+3. log4jdbc-log4j2-jdbc4.1 workset 생성
+4. log4jdbc-log4j2, log4jdbc-log4j2-jdbc4.1을 해당 workset에 넣기
+5. maven update
+
+jar packaging
+1. log4jdbc-log4j2 선택
+2. run-as -> maven build -> goal : package, skiptest 체크 -> run
